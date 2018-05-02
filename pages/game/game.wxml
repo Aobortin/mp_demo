@@ -1,0 +1,12 @@
+<view class='container' bindtap='clickWindow'>
+  <div id="ball" bind:touchMove="moveBall" class="init" style="left:{{offsetLeft}};right:{{offsetRight}};top:{{offsetTop}}"></div>
+  <div id="bar"></div>
+  <button id="left" bindtap='clickLeftBtn'>向左</button>
+  <button id="right" bindtap="clickRightBtn">向右</button>
+  <button id="up" bindtap="clickUpBtn">向上</button>
+  <button id="down" bindtap="clickDownBtn">向下</button>
+  <button id="stop" bindtap="clickStopBtn">停止</button> 
+  <!-- <audio src="BoomShakalaka.mp3"></audio> -->
+  <div id="brick">
+  </div>
+</view>

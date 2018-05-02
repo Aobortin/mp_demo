@@ -1,0 +1,25 @@
+#ball {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background: #00FF00;
+    border-radius: 50%;
+    top: 250px;
+    left: 250px;
+}
+
+#bar {
+    width: 150px;
+    height: 10px;
+    background: black;
+    position: absolute;
+    top: 600px;
+    border-radius: 5px;
+}
+.col{
+    width: 50px;
+    height: 20px;
+    background: orangered;
+    /*border: 1px solid #00FFFF;*/
+    position: absolute;
+}
